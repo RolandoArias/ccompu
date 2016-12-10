@@ -862,7 +862,15 @@ body.table-hover:not(.woocommerce-page) table tr:hover td{-webkit-transition:all
 /* Hover box ------------------------------------------------------------------------- */
 .hover_box{text-align:center;line-height:0}
 .hover_box a{display:block;line-height:0}
-.hover_box .hover_box_wrapper{display:inline-block;position:relative;overflow:hidden;line-height:0;max-width:100%}
+.hover_box .hover_box_wrapper{
+	display: inline-block;
+    position: relative;
+    overflow: hidden;
+    line-height: 0;
+    max-width: 80%;
+    padding: 10%;
+    border: 1px solid rgb(14 ,22 ,59);
+}
 .hover_box .hover_box_wrapper img{display:block}
 .hover_box .hover_box_wrapper .visible_photo{opacity:1;filter:alpha(opacity=100)}
 .hover_box .hover_box_wrapper .hidden_photo{position:absolute;left:50%;top:50%;opacity:0;filter:alpha(opacity=0);-ms-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}

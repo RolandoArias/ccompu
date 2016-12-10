@@ -78,10 +78,7 @@
 .shop-filters .woocommerce-ordering select{margin-bottom:0}
 
 /* Product Archives ------------------------------------------------------------------ */
-.woocommerce ul.products li.product{    width: 31.1%!important;
-    margin: 0 1% 20px!important;
-    clear: none;
-    border: 1px solid rgb(14,22,59);}
+.woocommerce ul.products li.product{width:31.3%!important;margin:0 1% 20px!important;clear:none}
 .woocommerce ul.products li.product:nth-child(3n+1){clear:both}
 
 /* Product Archives | Grid 4 col */
@@ -124,7 +121,7 @@
 /* Product */
 .woocommerce ul.products li.product .image_frame{position:relative}
 .woocommerce ul.products li.product.outofstock .image_frame .image_wrapper img{filter:alpha(opacity=350);opacity:.3}
-.woocommerce ul.products li.product .star-rating{font-size:12px}
+.woocommerce ul.products li.product .star-rating{display:none;font-size:12px}
 .woocommerce ul.products li.product h3,.woocommerce-page ul.products li.product h4{margin-bottom:5px}
 .woocommerce ul.products li.product .price,.woocommerce-page ul.products li.product .price{font-size:18px;margin-bottom:0}
 .woocommerce ul.products li.product .excerpt,.woocommerce-page ul.products li.product .excerpt{margin-top:15px}
