@@ -167,3 +167,10 @@ if( ! mfn_opts_get( 'plugin-visual' ) ){
 		vc_set_as_theme();
 	}
 }
+
+add_filter( 'woocommerce_product_tabs', 'sb_woo_remove_reviews_tab', 98);
+function sb_woo_remove_reviews_tab($tabs)
+{
+   unset($tabs['reviews']);
+   return $tabs;
+}

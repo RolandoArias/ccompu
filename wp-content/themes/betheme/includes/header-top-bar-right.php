@@ -23,7 +23,7 @@ if( has_nav_menu( 'lang-menu' ) ){
 }
 
 if( $has_cart || $header_search || $header_action_link || $wpml_icon ){
-	echo '<div class="top_bar_right">';
+	echo '<div id="rolita" class="top_bar_right">';
 		echo '<div class="top_bar_right_wrapper">';
 		
 			// WooCommerce Cart
@@ -170,6 +170,11 @@ if( $has_cart || $header_search || $header_action_link || $wpml_icon ){
 				
 				echo '<a href="'. $header_action_link .'" class="button button_theme button_js action_button '. $action_class .'" '. $action_target .'><span class="button_label">'. mfn_opts_get( 'header-action-title' ) .'</span></a>';
 			}
+
+			#Buscador FAcebook
+			echo "<a id='fb_button' href='https://www.facebook.com/compuferiaelsalvador'>
+				<img src='/wp-content/uploads/2016/12/fb-button-06.png'>
+			</a>";
 						
 		echo '</div>';
 	echo '</div>';

@@ -31,14 +31,14 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/404.php:13
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4743
-msgid "go to homepage"
+msgid "ir a inicio"
 msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/404.php:34
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/template-blank.php:26
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/under-construction.php:26
 #, php-format
-msgid "Page %s"
+msgid "Paginas %s"
 msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/content-single-topic-lead.php:18

@@ -20933,7 +20933,7 @@ msgstr ""
 #: templates/loop/result-count.php:41
 msgctxt "%1$d = first, %2$d = last, %3$d = total"
 msgid "Showing the single result"
-msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgid_plural "Mostrando %1$d&ndash;%2$d of %3$d results"
 msgstr[0] ""
 msgstr[1] ""
 

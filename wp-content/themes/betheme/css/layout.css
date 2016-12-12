@@ -82,7 +82,7 @@ body.nice-scroll:not(.layout-boxed){padding-right:10px!important}
 /* Pager ----------------------------------------------------------------------------- */
 .pager_wrapper{margin-bottom:0}
 .pager{text-align:center}
-.pager .pages{display:inline-block;margin:20px 30px 0;padding:4px 3px;-webkit-border-radius:5px;border-radius:5px;background-color:#f8f8f8;background-image:url(../images/stripes/stripes_3_b.png)}
+.pager .pages{display:inline-block;margin:20px 30px 0;padding:4px 3px;-webkit-border-radius:5px;border-radius:5px;background-color:#f8f8f8;)}
 .pager .pages a,.pager .pages span.page-numbers{display:inline-block;margin:0 1px;width:35px;height:35px;line-height:35px;text-align:center;-webkit-border-radius:5px;border-radius:5px}
 .pager .pages a:hover{text-decoration:none}
 .pager .pages a:hover,.pager .pages a.active,.pager .pages span.page-numbers.current{color:#fff}
@@ -726,7 +726,9 @@ body:not(.template-slider) #Header{min-height:250px}
 #Subheader .title{margin-bottom:0;width:70%;float:left}
 #Subheader ul.breadcrumbs{display:block;width:30%;margin:1px 0 0;font-size:1em!important;float:right;text-align:right}
 #Subheader ul.breadcrumbs li{display:inline-block}
-#Subheader ul.breadcrumbs li,#Subheader ul.breadcrumbs li a{color:rgba(0,0,0,.3)}
+#Subheader ul.breadcrumbs li,#Subheader ul.breadcrumbs li a{
+	color:white !important;
+}
 #Subheader ul.breadcrumbs li span{margin:0 10px;opacity:.4;filter:alpha(opacity=40)}
 #Subheader:after{content:"";height:3px;width:100%;display:block;position:absolute;left:0;bottom:-3px;z-index:1;background:url(../images/box_shadow.png) repeat-x left top}
 #Subheader ul.woocommerce-breadcrumb li:last-child span{display:none}
@@ -738,7 +740,9 @@ body:not(.template-slider) #Header{min-height:250px}
 	.subheader-both-left #Subheader .breadcrumbs{width:100%;text-align:left;margin-top:10px}
 	.subheader-both-right #Subheader .title{width:100%;text-align:right}
 	.subheader-both-right #Subheader .breadcrumbs{width:100%;text-align:right;margin-top:10px}
-	.subheader-both-center #Subheader .title{width:100%;text-align:center}
+	.subheader-both-center #Subheader .title{width:100%;text-align:center;font-family: "Patua One", Arial, Tahoma, sans-serif;
+    color: #0E163B;
+    font-size: 32px;}
 	.subheader-both-center #Subheader .breadcrumbs{width:100%;text-align:center;margin-top:10px}
 
 /* Intro ------------------------------------------------------------------------- */
@@ -1673,4 +1677,82 @@ ul.product-categories {
 .widget_product_categories ul li ul{
 	 background: transparent !important;
     color: black !important;
+}
+
+.subheader-both-center #Subheader .breadcrumbs i.icon-right-open:before {
+    content: ">";
+}
+
+span.woocommerce-Price-amount.amount{
+	    color: #FF6348;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Lato";
+}
+
+.woocommerce ul.products li.product a {
+    text-decoration: none;
+    font-family: "Lato";
+    font-size: 13px;
+    font-weight: 400;
+}
+.woocommerce ul.products li.product .desc{
+	background: none !important;
+	padding: 15px 0px !important; 
+}
+
+span.product-title {
+    font-size: 12px;
+    color: black;
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+.product_list_widget span.woocommerce-Price-amount.amount{ 
+	    color: #FF6348;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Lato";
+}
+.pager .pages a:hover, 
+.pager .pages a.active, 
+.pager .pages span.page-numbers.current {
+    color: #fff !important;
+    background-color: #F74D37 !important;
+}
+
+.pager .pages a{
+    color: #F74D37 !important;
+    font-size: 17px;
+
+
+}
+.woocommerce .product div.entry-summary h1.product_title{
+    font-family: "Lato";
+
+}
+
+#Top_bar a#fb_button {
+    position: relative;
+    top: 1px;
+    display: block;
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.woocommerce-product-rating{
+	display: none !important;
+}
+
+.next-prev-nav .button_icon{
+	background-color: #F74D37 !important;
+}
+.next-prev-nav .button_icon i{
+	color: white !important
+}
+
+.list-nav a{
+	
 }
